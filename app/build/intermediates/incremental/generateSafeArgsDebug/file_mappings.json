@@ -1,0 +1,1 @@
+[{"navFile":"src\\main\\res\\navigation\\my_nav.xml","javaFiles":["com.devx.todolist.fragments.list.ListFragmentDirections","com.devx.todolist.fragments.add.AddFragmentDirections","com.devx.todolist.fragments.update.UpdateFragmentDirections","com.devx.todolist.fragments.update.UpdateFragmentArgs"]}]

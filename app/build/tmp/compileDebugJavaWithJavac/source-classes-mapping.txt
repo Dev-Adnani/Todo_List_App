@@ -1,0 +1,49 @@
+com/devx/todolist/databinding/FragmentListBindingImpl.java
+ com.devx.todolist.databinding.FragmentListBindingImpl
+com/devx/todolist/databinding/FragmentUpdateBindingImpl.java
+ com.devx.todolist.databinding.FragmentUpdateBindingImpl
+com/devx/todolist/databinding/RowLayoutBindingImpl.java
+ com.devx.todolist.databinding.RowLayoutBindingImpl
+com/devx/todolist/databinding/FragmentListBinding.java
+ com.devx.todolist.databinding.FragmentListBinding
+com/devx/todolist/databinding/RowLayoutBinding.java
+ com.devx.todolist.databinding.RowLayoutBinding
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+com/devx/todolist/databinding/ActivityMainBinding.java
+ com.devx.todolist.databinding.ActivityMainBinding
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+com/devx/todolist/fragments/database/ToDoDatabase_Impl.java
+ com.devx.todolist.fragments.database.ToDoDatabase_Impl
+ com.devx.todolist.fragments.database.ToDoDatabase_Impl$1
+com/devx/todolist/BR.java
+ com.devx.todolist.BR
+com/devx/todolist/BuildConfig.java
+ com.devx.todolist.BuildConfig
+com/devx/todolist/DataBindingTriggerClass.java
+ com.devx.todolist.DataBindingTriggerClass
+com/devx/todolist/databinding/FragmentUpdateBinding.java
+ com.devx.todolist.databinding.FragmentUpdateBinding
+com/devx/todolist/data/dao/ToDoDao_Impl.java
+ com.devx.todolist.data.dao.ToDoDao_Impl
+ com.devx.todolist.data.dao.ToDoDao_Impl$1
+ com.devx.todolist.data.dao.ToDoDao_Impl$10
+ com.devx.todolist.data.dao.ToDoDao_Impl$11
+ com.devx.todolist.data.dao.ToDoDao_Impl$12
+ com.devx.todolist.data.dao.ToDoDao_Impl$2
+ com.devx.todolist.data.dao.ToDoDao_Impl$3
+ com.devx.todolist.data.dao.ToDoDao_Impl$4
+ com.devx.todolist.data.dao.ToDoDao_Impl$5
+ com.devx.todolist.data.dao.ToDoDao_Impl$6
+ com.devx.todolist.data.dao.ToDoDao_Impl$7
+ com.devx.todolist.data.dao.ToDoDao_Impl$8
+ com.devx.todolist.data.dao.ToDoDao_Impl$9
+com/devx/todolist/databinding/FragmentAddBinding.java
+ com.devx.todolist.databinding.FragmentAddBinding
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+com/devx/todolist/DataBinderMapperImpl.java
+ com.devx.todolist.DataBinderMapperImpl
+ com.devx.todolist.DataBinderMapperImpl$InnerBrLookup
+ com.devx.todolist.DataBinderMapperImpl$InnerLayoutIdLookup
