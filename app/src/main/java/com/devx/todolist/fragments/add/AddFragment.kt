@@ -37,7 +37,6 @@ class AddFragment : Fragment() {
 
         return view
 
-
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
