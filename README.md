@@ -10,6 +10,7 @@
 - Simple and Classic UI/UX
 - Easy to use app.
 - You Can Enable Dark Mode 
+- Added Fingerprint Authentition For Safety Purpose
 
 ##  Brief About App
 
