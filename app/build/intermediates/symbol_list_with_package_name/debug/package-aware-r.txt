@@ -1725,6 +1725,7 @@ drawable ic_no_data
 drawable ic_save
 drawable ic_search
 drawable ic_to_do_list
+drawable ic_unauthorized_person
 drawable item_background
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
@@ -1931,6 +1932,8 @@ id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id errorImageView
+id errorRelativeLayout
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2505,6 +2508,7 @@ string sort_by
 string status_bar_notification_info_overflow
 string title
 string toast_message
+string unauthorized_person
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

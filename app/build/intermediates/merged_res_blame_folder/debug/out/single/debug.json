@@ -40,6 +40,10 @@
         "source": "C:\\Users\\devad\\AndroidStudioProjects\\TodoList\\app\\src\\main\\res\\drawable\\ic_to_do_list.xml"
     },
     {
+        "merged": "C:\\Users\\devad\\AndroidStudioProjects\\TodoList\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_unauthorized_person.xml.flat",
+        "source": "C:\\Users\\devad\\AndroidStudioProjects\\TodoList\\app\\src\\main\\res\\drawable\\ic_unauthorized_person.xml"
+    },
+    {
         "merged": "C:\\Users\\devad\\AndroidStudioProjects\\TodoList\\app\\build\\intermediates\\res\\merged\\debug\\anim_to_left.xml.flat",
         "source": "C:\\Users\\devad\\AndroidStudioProjects\\TodoList\\app\\src\\main\\res\\anim\\to_left.xml"
     },

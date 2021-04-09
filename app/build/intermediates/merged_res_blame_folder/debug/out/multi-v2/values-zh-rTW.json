@@ -4,6 +4,23 @@
             "outputFile": "C:\\Users\\devad\\AndroidStudioProjects\\TodoList\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\devad\\.gradle\\caches\\transforms-2\\files-2.1\\12cfbedfa4c57be41aa02694643769bc\\navigation-ui-2.3.5\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,154",
+                        "endColumns": "98,99",
+                        "endOffsets": "149,249"
+                    },
+                    "to": {
+                        "startLines": "86,87",
+                        "startColumns": "4,4",
+                        "startOffsets": "6531,6630",
+                        "endColumns": "98,99",
+                        "endOffsets": "6625,6725"
+                    }
+                },
+                {
                     "source": "C:\\Users\\devad\\.gradle\\caches\\transforms-2\\files-2.1\\9428b88ebde075184e412ca0c4aaf1c6\\appcompat-1.2.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
@@ -18,23 +35,6 @@
                         "startOffsets": "252,347,440,540,622,719,827,904,979,1071,1165,1262,1358,1453,1547,1643,1735,1827,1919,1997,2093,2188,2283,2380,2476,2574,2724,6799",
                         "endColumns": "94,92,99,81,96,107,76,74,91,93,96,95,94,93,95,91,91,91,77,95,94,94,96,95,97,149,93,78",
                         "endOffsets": "342,435,535,617,714,822,899,974,1066,1160,1257,1353,1448,1542,1638,1730,1822,1914,1992,2088,2183,2278,2375,2471,2569,2719,2813,6873"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\devad\\.gradle\\caches\\transforms-2\\files-2.1\\ba26cffd022f0fcc1f7795bcfbe10ddb\\navigation-ui-2.3.4\\res\\values-zh-rTW\\values-zh-rTW.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,154",
-                        "endColumns": "98,99",
-                        "endOffsets": "149,249"
-                    },
-                    "to": {
-                        "startLines": "86,87",
-                        "startColumns": "4,4",
-                        "startOffsets": "6531,6630",
-                        "endColumns": "98,99",
-                        "endOffsets": "6625,6725"
                     }
                 },
                 {

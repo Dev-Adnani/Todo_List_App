@@ -4,23 +4,6 @@
             "outputFile": "C:\\Users\\devad\\AndroidStudioProjects\\TodoList\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sl\\values-sl.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\devad\\.gradle\\caches\\transforms-2\\files-2.1\\ba26cffd022f0fcc1f7795bcfbe10ddb\\navigation-ui-2.3.4\\res\\values-sl\\values-sl.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,163",
-                        "endColumns": "107,120",
-                        "endOffsets": "158,279"
-                    },
-                    "to": {
-                        "startLines": "88,89",
-                        "startColumns": "4,4",
-                        "startOffsets": "7389,7497",
-                        "endColumns": "107,120",
-                        "endOffsets": "7492,7613"
-                    }
-                },
-                {
                     "source": "C:\\Users\\devad\\.gradle\\caches\\transforms-2\\files-2.1\\18fdb79fa3be2a4e809a49f2395a5963\\core-1.3.2\\res\\values-sl\\values-sl.xml",
                     "from": {
                         "startLines": "2",
@@ -54,6 +37,23 @@
                         "endLines": "7,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,90",
                         "endColumns": "12,87,105,125,83,65,93,75,62,111,64,53,69,59,55,111,56,61,55,72,133,84,84,112,83,82,88,66,65,72,76,83,73,75,74,72,87,72,89,90,71,73,90,51,66,83,86,61,63,62,102,96,97,96,76",
                         "endOffsets": "367,3201,3307,3433,3517,3583,3677,3753,3816,3928,3993,4047,4117,4177,4233,4345,4402,4464,4520,4593,4727,4812,4897,5010,5094,5177,5266,5333,5399,5472,5549,5633,5707,5783,5858,5931,6019,6092,6182,6273,6345,6419,6510,6562,6629,6713,6800,6862,6926,6989,7092,7189,7287,7384,7690"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\devad\\.gradle\\caches\\transforms-2\\files-2.1\\12cfbedfa4c57be41aa02694643769bc\\navigation-ui-2.3.5\\res\\values-sl\\values-sl.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,163",
+                        "endColumns": "107,120",
+                        "endOffsets": "158,279"
+                    },
+                    "to": {
+                        "startLines": "88,89",
+                        "startColumns": "4,4",
+                        "startOffsets": "7389,7497",
+                        "endColumns": "107,120",
+                        "endOffsets": "7492,7613"
                     }
                 },
                 {

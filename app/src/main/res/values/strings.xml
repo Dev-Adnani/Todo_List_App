@@ -21,6 +21,8 @@
     <string name="delete">Delete</string>
     <string name="my_title">My Title</string>
     <string name="my_description">My Description</string>
+    <string name="unauthorized_person">Unauthorized Person</string>
+    <string name="error_image_view">Error Image View</string>
 
 </resources>
 

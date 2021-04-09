@@ -4,6 +4,8 @@ package com.devx.todolist.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -19,11 +21,19 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ImageView errorImageView;
+
+  @NonNull
+  public final RelativeLayout errorRelativeLayout;
+
+  @NonNull
   public final FragmentContainerView navHostFragment;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView,
-      @NonNull FragmentContainerView navHostFragment) {
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView errorImageView,
+      @NonNull RelativeLayout errorRelativeLayout, @NonNull FragmentContainerView navHostFragment) {
     this.rootView = rootView;
+    this.errorImageView = errorImageView;
+    this.errorRelativeLayout = errorRelativeLayout;
     this.navHostFragment = navHostFragment;
   }
 
@@ -54,13 +64,26 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.errorImageView;
+      ImageView errorImageView = rootView.findViewById(id);
+      if (errorImageView == null) {
+        break missingId;
+      }
+
+      id = R.id.errorRelativeLayout;
+      RelativeLayout errorRelativeLayout = rootView.findViewById(id);
+      if (errorRelativeLayout == null) {
+        break missingId;
+      }
+
       id = R.id.navHostFragment;
       FragmentContainerView navHostFragment = rootView.findViewById(id);
       if (navHostFragment == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, navHostFragment);
+      return new ActivityMainBinding((ConstraintLayout) rootView, errorImageView,
+          errorRelativeLayout, navHostFragment);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

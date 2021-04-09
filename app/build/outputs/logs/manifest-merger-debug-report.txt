@@ -1,13 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [androidx.room:room-ktx:2.2.6] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\44d2ec2f58b84e95d2f1a395fa56acb0\jetified-room-ktx-2.2.6\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\f9efa693fc91045b1b992dcab6ad14af\navigation-fragment-ktx-2.3.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-ui-ktx:2.3.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\e62e4601f5f39864cf56f15cba696fe2\navigation-ui-ktx-2.3.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\351543ef03ab215a6b2ecdd70698b0a2\navigation-runtime-ktx-2.3.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\003320362c7c75bb3025ba55218f4a92\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\60a26db7af8482f88fe8d6ebd22a404d\navigation-ui-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\ccb80d42afb1cc3d1b1529330654a78e\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\085b60b1906a9b7ba10cbc6e2cd86185\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\e2cb4ace91bbaae920e0f181e0c98ce3\jetified-activity-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\a47fe3b6b6422ee1bf67c863392c2bf2\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
@@ -15,10 +15,11 @@ MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\devad\.gra
 MERGED from [androidx.databinding:databinding-adapters:4.1.3] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\b6d7f3e0fd099bb59eae4b2987c9d68a\databinding-adapters-4.1.3\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:4.1.3] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\c0403967a2505b435efe26c4336504e4\databinding-runtime-4.1.3\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:viewbinding:4.1.3] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\d3629e491badca1e43120b41c7c74969\jetified-viewbinding-4.1.3\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-common-ktx:2.3.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\1e3342c33ffe0c00300def13667619ec\navigation-common-ktx-2.3.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\08709bf078a2365b0aa89c4b71e1b48d\navigation-common-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\0cd75184cb83de90de79d98d6c2114be\jetified-core-ktx-1.3.2\AndroidManifest.xml:2:1-9:12
+MERGED from [jp.wasabeef:recyclerview-animators:4.0.2] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\363245d7bf1ec504544495b7915c7167\jetified-recyclerview-animators-4.0.2\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\7104772ff891f2d9e00ce21466755919\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-ui:2.3.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\ba26cffd022f0fcc1f7795bcfbe10ddb\navigation-ui-2.3.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\12cfbedfa4c57be41aa02694643769bc\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\55bafe38a4c354632d6315fa1b7b459b\material-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\c864c767a80972d73def50f081c3c3f7\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.GrenderG:Toasty:1.5.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\ffa90ea7110be76e0edcbab574140255\jetified-Toasty-1.5.0\AndroidManifest.xml:2:1-11:12
@@ -26,7 +27,6 @@ MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\devad\.gradle\caches\t
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\b65204f226249fba1c60298a35178927\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.room:room-runtime:2.2.6] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\b4ae6ef3e2f58aa7ba3d90a15bdebba0\room-runtime-2.2.6\AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\0d9d6c36dd7fb9859540cc936911d7c6\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
-MERGED from [jp.wasabeef:recyclerview-animators:3.0.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\7fa6ed409500f03a38cff1f05670b19a\jetified-recyclerview-animators-3.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\250f3c61364565425ec8457fa86db64c\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\72fe2eb0fcad506393bcb3688c0e97d9\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\406350c640e67c5a85dad49ff850dd01\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -37,7 +37,7 @@ MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\devad\.gradle\caches
 MERGED from [androidx.media:media:1.0.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\e6cbdc6d50b7f94c23982fe2d59d52b9\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\50bc1be98d727ece48d733691534052e\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\579de169447c66fedff5ee04a8b57e5e\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-fragment:2.3.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\bc709a80b2eece34b3fa8595f3533da6\navigation-fragment-2.3.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\c3e13e21d9d6ed380672e0596c5ca070\navigation-fragment-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\af8fffb600a84432e18b319fbb6b5fbc\fragment-1.2.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\ffddc2c01c07759f456f0573c3c135ec\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\ac0a0dfb7715e9d5507b64cf96321950\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -47,9 +47,9 @@ MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\de
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\b778d314416f05fd55e1773a503487ed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\29abd0f63d9e29623fc3663b4323f50e\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.3.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\235feb488c49df441bfd810a779f4bae\transition-1.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-runtime:2.3.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\fee8d36540afa100be9fd37c67a5e016\navigation-runtime-2.3.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\1fec20fd0964e1af0663109694b6f1d3\navigation-runtime-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.1.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\0509f437eac04b17635b6bce4725f4b5\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-common:2.3.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\83162f2e25ad7a91a7152f4ae7be23f2\navigation-common-2.3.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\54b0222230e5a4a116f6f3a442c936fe\navigation-common-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.3.2] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\18fdb79fa3be2a4e809a49f2395a5963\core-1.3.2\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\6c0818f4682cf1137cedb78018f493f0\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\ac6301cd5a5897968792b6661325faf9\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -70,25 +70,29 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\2ccf32cfc58e6448a2335317f1080236\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\d5a8628b6cc19b52ecf8352e28a69abd\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\1317b4dc4e2a57e55ee6b3f41b0aab3c\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:3:5-32
 		INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-23:12
+		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-23:12
+		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:5:5-71
+	android:name
+		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:5:22-69
 application
-ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:5:5-21:19
+ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:7:5-23:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\55bafe38a4c354632d6315fa1b7b459b\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\55bafe38a4c354632d6315fa1b7b459b\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\c864c767a80972d73def50f081c3c3f7\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -106,47 +110,47 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\de
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.2] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\18fdb79fa3be2a4e809a49f2395a5963\core-1.3.2\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:10:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:13:9-41
 	android:roundIcon
-		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:9:9-52
+		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:11:9-52
 	android:icon
-		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:7:9-47
+		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:9:9-47
 	android:allowBackup
-		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:12:9-40
+		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:14:9-40
 activity#com.devx.todolist.activity.MainActivity
-ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:13:9-20:20
+ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:15:9-22:20
 	android:windowSoftInputMode
-		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:14:13-52
+		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:16:13-52
 	android:name
-		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:13:19-56
+		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:15:19-56
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:20:27-74
 uses-sdk
 INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml
 MERGED from [androidx.room:room-ktx:2.2.6] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\44d2ec2f58b84e95d2f1a395fa56acb0\jetified-room-ktx-2.2.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.room:room-ktx:2.2.6] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\44d2ec2f58b84e95d2f1a395fa56acb0\jetified-room-ktx-2.2.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\f9efa693fc91045b1b992dcab6ad14af\navigation-fragment-ktx-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\f9efa693fc91045b1b992dcab6ad14af\navigation-fragment-ktx-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui-ktx:2.3.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\e62e4601f5f39864cf56f15cba696fe2\navigation-ui-ktx-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui-ktx:2.3.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\e62e4601f5f39864cf56f15cba696fe2\navigation-ui-ktx-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\351543ef03ab215a6b2ecdd70698b0a2\navigation-runtime-ktx-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\351543ef03ab215a6b2ecdd70698b0a2\navigation-runtime-ktx-2.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\003320362c7c75bb3025ba55218f4a92\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\003320362c7c75bb3025ba55218f4a92\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\60a26db7af8482f88fe8d6ebd22a404d\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\60a26db7af8482f88fe8d6ebd22a404d\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\ccb80d42afb1cc3d1b1529330654a78e\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\ccb80d42afb1cc3d1b1529330654a78e\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\085b60b1906a9b7ba10cbc6e2cd86185\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\085b60b1906a9b7ba10cbc6e2cd86185\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\e2cb4ace91bbaae920e0f181e0c98ce3\jetified-activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -161,14 +165,16 @@ MERGED from [androidx.databinding:databinding-runtime:4.1.3] C:\Users\devad\.gra
 MERGED from [androidx.databinding:databinding-runtime:4.1.3] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\c0403967a2505b435efe26c4336504e4\databinding-runtime-4.1.3\AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:viewbinding:4.1.3] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\d3629e491badca1e43120b41c7c74969\jetified-viewbinding-4.1.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:4.1.3] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\d3629e491badca1e43120b41c7c74969\jetified-viewbinding-4.1.3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-common-ktx:2.3.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\1e3342c33ffe0c00300def13667619ec\navigation-common-ktx-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common-ktx:2.3.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\1e3342c33ffe0c00300def13667619ec\navigation-common-ktx-2.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\08709bf078a2365b0aa89c4b71e1b48d\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\08709bf078a2365b0aa89c4b71e1b48d\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\0cd75184cb83de90de79d98d6c2114be\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\0cd75184cb83de90de79d98d6c2114be\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [jp.wasabeef:recyclerview-animators:4.0.2] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\363245d7bf1ec504544495b7915c7167\jetified-recyclerview-animators-4.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [jp.wasabeef:recyclerview-animators:4.0.2] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\363245d7bf1ec504544495b7915c7167\jetified-recyclerview-animators-4.0.2\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\7104772ff891f2d9e00ce21466755919\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\7104772ff891f2d9e00ce21466755919\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui:2.3.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\ba26cffd022f0fcc1f7795bcfbe10ddb\navigation-ui-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui:2.3.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\ba26cffd022f0fcc1f7795bcfbe10ddb\navigation-ui-2.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\12cfbedfa4c57be41aa02694643769bc\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\12cfbedfa4c57be41aa02694643769bc\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\55bafe38a4c354632d6315fa1b7b459b\material-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\55bafe38a4c354632d6315fa1b7b459b\material-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\c864c767a80972d73def50f081c3c3f7\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
@@ -183,8 +189,6 @@ MERGED from [androidx.room:room-runtime:2.2.6] C:\Users\devad\.gradle\caches\tra
 MERGED from [androidx.room:room-runtime:2.2.6] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\b4ae6ef3e2f58aa7ba3d90a15bdebba0\room-runtime-2.2.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\0d9d6c36dd7fb9859540cc936911d7c6\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\0d9d6c36dd7fb9859540cc936911d7c6\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [jp.wasabeef:recyclerview-animators:3.0.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\7fa6ed409500f03a38cff1f05670b19a\jetified-recyclerview-animators-3.0.0\AndroidManifest.xml:5:5-7:41
-MERGED from [jp.wasabeef:recyclerview-animators:3.0.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\7fa6ed409500f03a38cff1f05670b19a\jetified-recyclerview-animators-3.0.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\250f3c61364565425ec8457fa86db64c\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\250f3c61364565425ec8457fa86db64c\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\72fe2eb0fcad506393bcb3688c0e97d9\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
@@ -205,8 +209,8 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\devad\.gr
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\50bc1be98d727ece48d733691534052e\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\579de169447c66fedff5ee04a8b57e5e\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\579de169447c66fedff5ee04a8b57e5e\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.3.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\bc709a80b2eece34b3fa8595f3533da6\navigation-fragment-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.3.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\bc709a80b2eece34b3fa8595f3533da6\navigation-fragment-2.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\c3e13e21d9d6ed380672e0596c5ca070\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\c3e13e21d9d6ed380672e0596c5ca070\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\af8fffb600a84432e18b319fbb6b5fbc\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\af8fffb600a84432e18b319fbb6b5fbc\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\ffddc2c01c07759f456f0573c3c135ec\loader-1.0.0\AndroidManifest.xml:20:5-44
@@ -225,12 +229,12 @@ MERGED from [androidx.customview:customview:1.1.0] C:\Users\devad\.gradle\caches
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\29abd0f63d9e29623fc3663b4323f50e\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.3.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\235feb488c49df441bfd810a779f4bae\transition-1.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.3.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\235feb488c49df441bfd810a779f4bae\transition-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.3.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\fee8d36540afa100be9fd37c67a5e016\navigation-runtime-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.3.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\fee8d36540afa100be9fd37c67a5e016\navigation-runtime-2.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\1fec20fd0964e1af0663109694b6f1d3\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\1fec20fd0964e1af0663109694b6f1d3\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.1.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\0509f437eac04b17635b6bce4725f4b5\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.1.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\0509f437eac04b17635b6bce4725f4b5\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.3.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\83162f2e25ad7a91a7152f4ae7be23f2\navigation-common-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.3.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\83162f2e25ad7a91a7152f4ae7be23f2\navigation-common-2.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\54b0222230e5a4a116f6f3a442c936fe\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\54b0222230e5a4a116f6f3a442c936fe\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.3.2] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\18fdb79fa3be2a4e809a49f2395a5963\core-1.3.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.3.2] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\18fdb79fa3be2a4e809a49f2395a5963\core-1.3.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\6c0818f4682cf1137cedb78018f493f0\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44

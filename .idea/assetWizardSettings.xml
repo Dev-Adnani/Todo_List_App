@@ -330,8 +330,9 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_baseline_content_copy_24" />
-                            <entry key="sourceFile" value="C:\Users\devad\Downloads\to-do-list.svg" />
+                            <entry key="assetSourceType" value="FILE" />
+                            <entry key="outputName" value="ic_unauthorized_person" />
+                            <entry key="sourceFile" value="C:\Users\devad\Downloads\unauthorized-person.svg" />
                           </map>
                         </option>
                       </PersistentState>
