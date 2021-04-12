@@ -9,7 +9,7 @@
 - No internet is required to use the app.
 - Simple and Classic UI/UX
 - Easy to use app.
-- You Can Enable Dark Mode 
+- Now You Can Toggle Between Night & Light Mode
 - Added Fingerprint Authentition For Safety Purpose
 
 ##  Brief About App
