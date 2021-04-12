@@ -2,7 +2,7 @@
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.devx.todolist"
 4    android:versionCode="1"
-5    android:versionName="1.1" >
+5    android:versionName="1.2" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="28"
@@ -11,11 +11,11 @@
 9-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
-11-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:5:5-71
+11-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:5:5-72
 11-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:5:22-69
 12
 13    <application
-13-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:7:5-23:19
+13-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:7:5-24:19
 14        android:allowBackup="true"
 14-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -32,46 +32,45 @@
 21-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:11:9-52
 22        android:supportsRtl="true"
 22-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:12:9-35
-23        android:testOnly="true"
-24        android:theme="@style/ToDo.App" >
-24-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:14:9-40
-25        <activity
-25-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:15:9-22:20
-26            android:name="com.devx.todolist.activity.MainActivity"
-26-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:15:19-56
-27            android:windowSoftInputMode="adjustPan" >
-27-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:16:13-52
-28            <intent-filter>
-28-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:17:13-21:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:18:17-69
-29-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:18:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:20:17-77
-31-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:20:27-74
-32            </intent-filter>
-33        </activity>
-34
-35        <service
-35-->[androidx.room:room-runtime:2.2.6] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\b4ae6ef3e2f58aa7ba3d90a15bdebba0\room-runtime-2.2.6\AndroidManifest.xml:25:9-28:40
-36            android:name="androidx.room.MultiInstanceInvalidationService"
-36-->[androidx.room:room-runtime:2.2.6] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\b4ae6ef3e2f58aa7ba3d90a15bdebba0\room-runtime-2.2.6\AndroidManifest.xml:26:13-74
-37            android:directBootAware="true"
-37-->[androidx.room:room-runtime:2.2.6] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\b4ae6ef3e2f58aa7ba3d90a15bdebba0\room-runtime-2.2.6\AndroidManifest.xml:27:13-43
-38            android:exported="false" />
-38-->[androidx.room:room-runtime:2.2.6] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\b4ae6ef3e2f58aa7ba3d90a15bdebba0\room-runtime-2.2.6\AndroidManifest.xml:28:13-37
-39
-40        <provider
-40-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\9cafa2a4a706ba6d5dd19f0792c86933\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-41            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-41-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\9cafa2a4a706ba6d5dd19f0792c86933\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-42            android:authorities="com.devx.todolist.lifecycle-process"
-42-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\9cafa2a4a706ba6d5dd19f0792c86933\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-43            android:exported="false"
-43-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\9cafa2a4a706ba6d5dd19f0792c86933\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-44            android:multiprocess="true" />
-44-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\9cafa2a4a706ba6d5dd19f0792c86933\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-45    </application>
-46
-47</manifest>
+23        android:theme="@style/ToDo.App" >
+23-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:14:9-40
+24        <activity
+24-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:15:9-23:20
+25            android:name="com.devx.todolist.activity.MainActivity"
+25-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:16:13-50
+26            android:windowSoftInputMode="adjustPan" >
+26-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:17:13-52
+27            <intent-filter>
+27-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:18:13-22:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:19:17-69
+28-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:19:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:21:17-77
+30-->C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:21:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <service
+34-->[androidx.room:room-runtime:2.2.6] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\b4ae6ef3e2f58aa7ba3d90a15bdebba0\room-runtime-2.2.6\AndroidManifest.xml:25:9-28:40
+35            android:name="androidx.room.MultiInstanceInvalidationService"
+35-->[androidx.room:room-runtime:2.2.6] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\b4ae6ef3e2f58aa7ba3d90a15bdebba0\room-runtime-2.2.6\AndroidManifest.xml:26:13-74
+36            android:directBootAware="true"
+36-->[androidx.room:room-runtime:2.2.6] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\b4ae6ef3e2f58aa7ba3d90a15bdebba0\room-runtime-2.2.6\AndroidManifest.xml:27:13-43
+37            android:exported="false" />
+37-->[androidx.room:room-runtime:2.2.6] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\b4ae6ef3e2f58aa7ba3d90a15bdebba0\room-runtime-2.2.6\AndroidManifest.xml:28:13-37
+38
+39        <provider
+39-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\9cafa2a4a706ba6d5dd19f0792c86933\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+40            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+40-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\9cafa2a4a706ba6d5dd19f0792c86933\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+41            android:authorities="com.devx.todolist.lifecycle-process"
+41-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\9cafa2a4a706ba6d5dd19f0792c86933\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+42            android:exported="false"
+42-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\9cafa2a4a706ba6d5dd19f0792c86933\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+43            android:multiprocess="true" />
+43-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\9cafa2a4a706ba6d5dd19f0792c86933\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+44    </application>
+45
+46</manifest>

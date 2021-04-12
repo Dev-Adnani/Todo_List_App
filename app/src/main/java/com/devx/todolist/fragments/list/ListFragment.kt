@@ -8,14 +8,15 @@ import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.devx.todolist.R
 import com.devx.todolist.data.models.ToDoData
+import com.devx.todolist.data.viewmodel.SharedViewModel
 import com.devx.todolist.data.viewmodel.ToDoViewModel
 import com.devx.todolist.databinding.FragmentListBinding
-import com.devx.todolist.data.viewmodel.SharedViewModel
 import com.devx.todolist.fragments.list.adapter.ListAdapter
 import com.devx.todolist.utils.hideKeyboard
 import com.google.android.material.snackbar.Snackbar
@@ -118,6 +119,10 @@ class ListFragment : Fragment(), SearchView.OnQueryTextListener {
             R.id.menu_priority_low -> mTodoViewModel.sortByLowPriority.observe(
                 this,
                 Observer { adapter.setData(it) })
+            R.id.menu_settings -> {
+                findNavController().navigate(R.id.action_listFragment_to_settingsFragment)
+            }
+
 
         }
 
@@ -130,7 +135,12 @@ class ListFragment : Fragment(), SearchView.OnQueryTextListener {
         builder.setPositiveButton("Yes")
         { _, _ ->
             mTodoViewModel.deleteAll()
-            Toasty.success(requireContext(), "Successfully Removed EveryThing", Toast.LENGTH_SHORT, true).show();
+            Toasty.success(
+                requireContext(),
+                "Successfully Removed EveryThing",
+                Toast.LENGTH_SHORT,
+                true
+            ).show()
         }
         builder.setNegativeButton("No")
         { _, _ ->

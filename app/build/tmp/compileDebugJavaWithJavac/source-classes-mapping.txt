@@ -41,6 +41,8 @@ com/devx/todolist/data/dao/ToDoDao_Impl.java
  com.devx.todolist.data.dao.ToDoDao_Impl$9
 com/devx/todolist/databinding/FragmentAddBinding.java
  com.devx.todolist.databinding.FragmentAddBinding
+com/devx/todolist/databinding/FragmentSettingsBinding.java
+ com.devx.todolist.databinding.FragmentSettingsBinding
 androidx/databinding/DataBindingComponent.java
  androidx.databinding.DataBindingComponent
 com/devx/todolist/DataBinderMapperImpl.java

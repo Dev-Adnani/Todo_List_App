@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-26:12
 MERGED from [androidx.room:room-ktx:2.2.6] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\44d2ec2f58b84e95d2f1a395fa56acb0\jetified-room-ktx-2.2.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\003320362c7c75bb3025ba55218f4a92\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\60a26db7af8482f88fe8d6ebd22a404d\navigation-ui-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
@@ -70,29 +70,29 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\2ccf32cfc58e6448a2335317f1080236\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\d5a8628b6cc19b52ecf8352e28a69abd\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\1317b4dc4e2a57e55ee6b3f41b0aab3c\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:3:5-32
 		INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.USE_BIOMETRIC
-ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:5:5-71
+ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:5:5-72
 	android:name
 		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:5:22-69
 application
-ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:7:5-23:19
+ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:7:5-24:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\55bafe38a4c354632d6315fa1b7b459b\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\55bafe38a4c354632d6315fa1b7b459b\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\devad\.gradle\caches\transforms-2\files-2.1\c864c767a80972d73def50f081c3c3f7\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -124,21 +124,21 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\de
 	android:theme
 		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:14:9-40
 activity#com.devx.todolist.activity.MainActivity
-ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:15:9-22:20
+ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:15:9-23:20
 	android:windowSoftInputMode
-		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:16:13-52
+		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:17:13-52
 	android:name
-		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:15:19-56
+		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:16:13-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:17:13-21:29
+ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml:21:27-74
 uses-sdk
 INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\devad\AndroidStudioProjects\TodoList\app\src\main\AndroidManifest.xml

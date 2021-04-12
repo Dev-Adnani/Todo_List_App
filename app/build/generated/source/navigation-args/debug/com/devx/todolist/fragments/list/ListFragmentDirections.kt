@@ -38,5 +38,8 @@ public class ListFragmentDirections private constructor() {
 
     public fun actionListFragmentToUpdateFragment(currentItem: ToDoData): NavDirections =
         ActionListFragmentToUpdateFragment(currentItem)
+
+    public fun actionListFragmentToSettingsFragment(): NavDirections =
+        ActionOnlyNavDirections(R.id.action_listFragment_to_settingsFragment)
   }
 }

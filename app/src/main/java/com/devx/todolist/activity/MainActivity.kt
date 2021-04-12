@@ -3,6 +3,7 @@ package com.devx.todolist.activity
 import android.app.KeyguardManager
 import android.content.Context
 import android.content.DialogInterface
+import android.content.SharedPreferences
 import android.content.pm.PackageManager
 import android.hardware.biometrics.BiometricPrompt
 import android.os.Build
@@ -13,6 +14,7 @@ import android.view.WindowManager
 import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.app.ActivityCompat
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
@@ -24,6 +26,8 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     private var cancellationSignal: CancellationSignal? = null
+    lateinit var sharedPreferences: SharedPreferences
+
     private val authenticationCallback: BiometricPrompt.AuthenticationCallback
         get() =
             @RequiresApi(Build.VERSION_CODES.P)
@@ -48,14 +52,19 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        sharedPreferences = getSharedPreferences(R.string.nMode.toString(), MODE_PRIVATE)
+
         checkBioSupport()
         checkAuth()
         disableUserAction()
+        checkNightMode()
 
         val navHostFragment =
             supportFragmentManager.findFragmentById(R.id.navHostFragment) as NavHostFragment
         val navController = navHostFragment.navController
         setupActionBarWithNavController(navController)
+
+
     }
 
     private fun disableUserAction() {
@@ -122,6 +131,15 @@ class MainActivity : AppCompatActivity() {
 
     private fun successMessage(message: String) {
         Toasty.success(this, message, Toast.LENGTH_SHORT, true).show()
+    }
+
+    private fun checkNightMode() {
+        if (sharedPreferences.getBoolean(R.string.key_isNight.toString(), false)) {
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+        } else {
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+
+        }
     }
 
 }

@@ -1029,6 +1029,7 @@ color colorBackground
 color colorPrimary
 color colorPrimaryDark
 color colorText
+color colorTextSecondary
 color darkGrey
 color defaultTextColor
 color design_bottom_navigation_shadow_color
@@ -1825,12 +1826,14 @@ id action_context_bar
 id action_divider
 id action_image
 id action_listFragment_to_addFragment
+id action_listFragment_to_settingsFragment
 id action_listFragment_to_updateFragment
 id action_menu_divider
 id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_settingsFragment_to_listFragment2
 id action_text
 id action_updateFragment_to_listFragment
 id actions
@@ -2019,6 +2022,7 @@ id menu_priority_high
 id menu_priority_low
 id menu_save
 id menu_search
+id menu_settings
 id menu_sortBy
 id message
 id middle
@@ -2127,6 +2131,8 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id settingSwitch
+id settingsFragment
 id shortcut
 id showCustom
 id showHome
@@ -2306,6 +2312,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_add
 layout fragment_list
+layout fragment_settings
 layout fragment_update
 layout material_chip_input_combo
 layout material_clock_display
@@ -2423,6 +2430,7 @@ string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
+string change_theme
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -2432,6 +2440,7 @@ string delete
 string delete_all
 string description
 string error_icon_content_description
+string error_image_view
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
@@ -2439,6 +2448,7 @@ string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
+string key_isNight
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection
@@ -2491,6 +2501,7 @@ string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string my_description
 string my_title
+string nMode
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
 string no_data
@@ -2504,6 +2515,7 @@ string priority_low
 string save
 string search
 string search_menu_title
+string settings
 string sort_by
 string status_bar_notification_info_overflow
 string title

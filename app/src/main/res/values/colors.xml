@@ -18,6 +18,8 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
 
+    <color name="colorTextSecondary">#000000</color>
+
     <color name="colorText">#000000</color>
     <color name="colorBackground">#FFFFFFFF</color>
 
