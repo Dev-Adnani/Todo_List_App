@@ -11,6 +11,7 @@ import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.devx.todolist.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -65,19 +66,19 @@ public final class ActivityMainBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.errorImageView;
-      ImageView errorImageView = rootView.findViewById(id);
+      ImageView errorImageView = ViewBindings.findChildViewById(rootView, id);
       if (errorImageView == null) {
         break missingId;
       }
 
       id = R.id.errorRelativeLayout;
-      RelativeLayout errorRelativeLayout = rootView.findViewById(id);
+      RelativeLayout errorRelativeLayout = ViewBindings.findChildViewById(rootView, id);
       if (errorRelativeLayout == null) {
         break missingId;
       }
 
       id = R.id.navHostFragment;
-      FragmentContainerView navHostFragment = rootView.findViewById(id);
+      FragmentContainerView navHostFragment = ViewBindings.findChildViewById(rootView, id);
       if (navHostFragment == null) {
         break missingId;
       }

@@ -1,15 +1,15 @@
-com/devx/todolist/databinding/FragmentListBindingImpl.java
- com.devx.todolist.databinding.FragmentListBindingImpl
 com/devx/todolist/databinding/FragmentUpdateBindingImpl.java
  com.devx.todolist.databinding.FragmentUpdateBindingImpl
+com/devx/todolist/databinding/FragmentListBindingImpl.java
+ com.devx.todolist.databinding.FragmentListBindingImpl
 com/devx/todolist/databinding/RowLayoutBindingImpl.java
  com.devx.todolist.databinding.RowLayoutBindingImpl
 com/devx/todolist/databinding/FragmentListBinding.java
  com.devx.todolist.databinding.FragmentListBinding
-com/devx/todolist/databinding/RowLayoutBinding.java
- com.devx.todolist.databinding.RowLayoutBinding
 androidx/databinding/DataBinderMapperImpl.java
  androidx.databinding.DataBinderMapperImpl
+com/devx/todolist/databinding/RowLayoutBinding.java
+ com.devx.todolist.databinding.RowLayoutBinding
 com/devx/todolist/databinding/ActivityMainBinding.java
  com.devx.todolist.databinding.ActivityMainBinding
 androidx/databinding/library/baseAdapters/BR.java
@@ -19,10 +19,10 @@ com/devx/todolist/fragments/database/ToDoDatabase_Impl.java
  com.devx.todolist.fragments.database.ToDoDatabase_Impl$1
 com/devx/todolist/BR.java
  com.devx.todolist.BR
-com/devx/todolist/BuildConfig.java
- com.devx.todolist.BuildConfig
 com/devx/todolist/DataBindingTriggerClass.java
  com.devx.todolist.DataBindingTriggerClass
+com/devx/todolist/BuildConfig.java
+ com.devx.todolist.BuildConfig
 com/devx/todolist/databinding/FragmentUpdateBinding.java
  com.devx.todolist.databinding.FragmentUpdateBinding
 com/devx/todolist/data/dao/ToDoDao_Impl.java

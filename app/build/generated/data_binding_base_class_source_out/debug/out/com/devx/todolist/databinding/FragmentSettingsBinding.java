@@ -8,6 +8,7 @@ import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.devx.todolist.R;
 import com.google.android.material.switchmaterial.SwitchMaterial;
 import java.lang.NullPointerException;
@@ -55,7 +56,7 @@ public final class FragmentSettingsBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.settingSwitch;
-      SwitchMaterial settingSwitch = rootView.findViewById(id);
+      SwitchMaterial settingSwitch = ViewBindings.findChildViewById(rootView, id);
       if (settingSwitch == null) {
         break missingId;
       }

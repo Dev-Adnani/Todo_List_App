@@ -1,26 +1,26 @@
 [
     {
-        "merged": "C:\\Users\\devad\\AndroidStudioProjects\\TodoList\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_update.xml",
-        "source": "C:\\Users\\devad\\AndroidStudioProjects\\TodoList\\app\\src\\main\\res\\layout\\fragment_update.xml"
+        "merged": "C:\\Users\\Dev Adnani\\AndroidStudioProjects\\Todo_List_App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Dev Adnani\\AndroidStudioProjects\\Todo_List_App\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\devad\\AndroidStudioProjects\\TodoList\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_list.xml",
-        "source": "C:\\Users\\devad\\AndroidStudioProjects\\TodoList\\app\\src\\main\\res\\layout\\fragment_list.xml"
+        "merged": "C:\\Users\\Dev Adnani\\AndroidStudioProjects\\Todo_List_App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_add.xml",
+        "source": "C:\\Users\\Dev Adnani\\AndroidStudioProjects\\Todo_List_App\\app\\src\\main\\res\\layout\\fragment_add.xml"
     },
     {
-        "merged": "C:\\Users\\devad\\AndroidStudioProjects\\TodoList\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\Users\\devad\\AndroidStudioProjects\\TodoList\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Dev Adnani\\AndroidStudioProjects\\Todo_List_App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_list.xml",
+        "source": "C:\\Users\\Dev Adnani\\AndroidStudioProjects\\Todo_List_App\\app\\src\\main\\res\\layout\\fragment_list.xml"
     },
     {
-        "merged": "C:\\Users\\devad\\AndroidStudioProjects\\TodoList\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_settings.xml",
-        "source": "C:\\Users\\devad\\AndroidStudioProjects\\TodoList\\app\\src\\main\\res\\layout\\fragment_settings.xml"
+        "merged": "C:\\Users\\Dev Adnani\\AndroidStudioProjects\\Todo_List_App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_update.xml",
+        "source": "C:\\Users\\Dev Adnani\\AndroidStudioProjects\\Todo_List_App\\app\\src\\main\\res\\layout\\fragment_update.xml"
     },
     {
-        "merged": "C:\\Users\\devad\\AndroidStudioProjects\\TodoList\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_layout.xml",
-        "source": "C:\\Users\\devad\\AndroidStudioProjects\\TodoList\\app\\src\\main\\res\\layout\\row_layout.xml"
+        "merged": "C:\\Users\\Dev Adnani\\AndroidStudioProjects\\Todo_List_App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_layout.xml",
+        "source": "C:\\Users\\Dev Adnani\\AndroidStudioProjects\\Todo_List_App\\app\\src\\main\\res\\layout\\row_layout.xml"
     },
     {
-        "merged": "C:\\Users\\devad\\AndroidStudioProjects\\TodoList\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_add.xml",
-        "source": "C:\\Users\\devad\\AndroidStudioProjects\\TodoList\\app\\src\\main\\res\\layout\\fragment_add.xml"
+        "merged": "C:\\Users\\Dev Adnani\\AndroidStudioProjects\\Todo_List_App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\Dev Adnani\\AndroidStudioProjects\\Todo_List_App\\app\\src\\main\\res\\layout\\fragment_settings.xml"
     }
 ]

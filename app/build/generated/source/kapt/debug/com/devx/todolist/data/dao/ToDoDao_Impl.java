@@ -14,12 +14,14 @@ import androidx.sqlite.db.SupportSQLiteStatement;
 import com.devx.todolist.data.converters.Converter;
 import com.devx.todolist.data.models.Priority;
 import com.devx.todolist.data.models.ToDoData;
+import java.lang.Class;
 import java.lang.Exception;
 import java.lang.Object;
 import java.lang.Override;
 import java.lang.String;
 import java.lang.SuppressWarnings;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.Callable;
 import kotlin.Unit;
@@ -119,7 +121,7 @@ public final class ToDoDao_Impl implements ToDoDao {
   }
 
   @Override
-  public Object insertData(final ToDoData toDoData, final Continuation<? super Unit> p1) {
+  public Object insertData(final ToDoData toDoData, final Continuation<? super Unit> continuation) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
       public Unit call() throws Exception {
@@ -132,11 +134,11 @@ public final class ToDoDao_Impl implements ToDoDao {
           __db.endTransaction();
         }
       }
-    }, p1);
+    }, continuation);
   }
 
   @Override
-  public Object deleteItem(final ToDoData toDoData, final Continuation<? super Unit> p1) {
+  public Object deleteItem(final ToDoData toDoData, final Continuation<? super Unit> continuation) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
       public Unit call() throws Exception {
@@ -149,11 +151,11 @@ public final class ToDoDao_Impl implements ToDoDao {
           __db.endTransaction();
         }
       }
-    }, p1);
+    }, continuation);
   }
 
   @Override
-  public Object updateData(final ToDoData toDoData, final Continuation<? super Unit> p1) {
+  public Object updateData(final ToDoData toDoData, final Continuation<? super Unit> continuation) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
       public Unit call() throws Exception {
@@ -166,11 +168,11 @@ public final class ToDoDao_Impl implements ToDoDao {
           __db.endTransaction();
         }
       }
-    }, p1);
+    }, continuation);
   }
 
   @Override
-  public Object deleteAll(final Continuation<? super Unit> p0) {
+  public Object deleteAll(final Continuation<? super Unit> continuation) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
       public Unit call() throws Exception {
@@ -185,7 +187,7 @@ public final class ToDoDao_Impl implements ToDoDao {
           __preparedStmtOfDeleteAll.release(_stmt);
         }
       }
-    }, p0);
+    }, continuation);
   }
 
   @Override
@@ -207,13 +209,25 @@ public final class ToDoDao_Impl implements ToDoDao {
             final int _tmpId;
             _tmpId = _cursor.getInt(_cursorIndexOfId);
             final String _tmpTitle;
-            _tmpTitle = _cursor.getString(_cursorIndexOfTitle);
+            if (_cursor.isNull(_cursorIndexOfTitle)) {
+              _tmpTitle = null;
+            } else {
+              _tmpTitle = _cursor.getString(_cursorIndexOfTitle);
+            }
             final Priority _tmpPriority;
             final String _tmp;
-            _tmp = _cursor.getString(_cursorIndexOfPriority);
+            if (_cursor.isNull(_cursorIndexOfPriority)) {
+              _tmp = null;
+            } else {
+              _tmp = _cursor.getString(_cursorIndexOfPriority);
+            }
             _tmpPriority = __converter.toPriority(_tmp);
             final String _tmpDescription;
-            _tmpDescription = _cursor.getString(_cursorIndexOfDescription);
+            if (_cursor.isNull(_cursorIndexOfDescription)) {
+              _tmpDescription = null;
+            } else {
+              _tmpDescription = _cursor.getString(_cursorIndexOfDescription);
+            }
             _item = new ToDoData(_tmpId,_tmpTitle,_tmpPriority,_tmpDescription);
             _result.add(_item);
           }
@@ -255,13 +269,25 @@ public final class ToDoDao_Impl implements ToDoDao {
             final int _tmpId;
             _tmpId = _cursor.getInt(_cursorIndexOfId);
             final String _tmpTitle;
-            _tmpTitle = _cursor.getString(_cursorIndexOfTitle);
+            if (_cursor.isNull(_cursorIndexOfTitle)) {
+              _tmpTitle = null;
+            } else {
+              _tmpTitle = _cursor.getString(_cursorIndexOfTitle);
+            }
             final Priority _tmpPriority;
             final String _tmp;
-            _tmp = _cursor.getString(_cursorIndexOfPriority);
+            if (_cursor.isNull(_cursorIndexOfPriority)) {
+              _tmp = null;
+            } else {
+              _tmp = _cursor.getString(_cursorIndexOfPriority);
+            }
             _tmpPriority = __converter.toPriority(_tmp);
             final String _tmpDescription;
-            _tmpDescription = _cursor.getString(_cursorIndexOfDescription);
+            if (_cursor.isNull(_cursorIndexOfDescription)) {
+              _tmpDescription = null;
+            } else {
+              _tmpDescription = _cursor.getString(_cursorIndexOfDescription);
+            }
             _item = new ToDoData(_tmpId,_tmpTitle,_tmpPriority,_tmpDescription);
             _result.add(_item);
           }
@@ -297,13 +323,25 @@ public final class ToDoDao_Impl implements ToDoDao {
             final int _tmpId;
             _tmpId = _cursor.getInt(_cursorIndexOfId);
             final String _tmpTitle;
-            _tmpTitle = _cursor.getString(_cursorIndexOfTitle);
+            if (_cursor.isNull(_cursorIndexOfTitle)) {
+              _tmpTitle = null;
+            } else {
+              _tmpTitle = _cursor.getString(_cursorIndexOfTitle);
+            }
             final Priority _tmpPriority;
             final String _tmp;
-            _tmp = _cursor.getString(_cursorIndexOfPriority);
+            if (_cursor.isNull(_cursorIndexOfPriority)) {
+              _tmp = null;
+            } else {
+              _tmp = _cursor.getString(_cursorIndexOfPriority);
+            }
             _tmpPriority = __converter.toPriority(_tmp);
             final String _tmpDescription;
-            _tmpDescription = _cursor.getString(_cursorIndexOfDescription);
+            if (_cursor.isNull(_cursorIndexOfDescription)) {
+              _tmpDescription = null;
+            } else {
+              _tmpDescription = _cursor.getString(_cursorIndexOfDescription);
+            }
             _item = new ToDoData(_tmpId,_tmpTitle,_tmpPriority,_tmpDescription);
             _result.add(_item);
           }
@@ -339,13 +377,25 @@ public final class ToDoDao_Impl implements ToDoDao {
             final int _tmpId;
             _tmpId = _cursor.getInt(_cursorIndexOfId);
             final String _tmpTitle;
-            _tmpTitle = _cursor.getString(_cursorIndexOfTitle);
+            if (_cursor.isNull(_cursorIndexOfTitle)) {
+              _tmpTitle = null;
+            } else {
+              _tmpTitle = _cursor.getString(_cursorIndexOfTitle);
+            }
             final Priority _tmpPriority;
             final String _tmp;
-            _tmp = _cursor.getString(_cursorIndexOfPriority);
+            if (_cursor.isNull(_cursorIndexOfPriority)) {
+              _tmp = null;
+            } else {
+              _tmp = _cursor.getString(_cursorIndexOfPriority);
+            }
             _tmpPriority = __converter.toPriority(_tmp);
             final String _tmpDescription;
-            _tmpDescription = _cursor.getString(_cursorIndexOfDescription);
+            if (_cursor.isNull(_cursorIndexOfDescription)) {
+              _tmpDescription = null;
+            } else {
+              _tmpDescription = _cursor.getString(_cursorIndexOfDescription);
+            }
             _item = new ToDoData(_tmpId,_tmpTitle,_tmpPriority,_tmpDescription);
             _result.add(_item);
           }
@@ -360,5 +410,9 @@ public final class ToDoDao_Impl implements ToDoDao {
         _statement.release();
       }
     });
+  }
+
+  public static List<Class<?>> getRequiredConverters() {
+    return Collections.emptyList();
   }
 }

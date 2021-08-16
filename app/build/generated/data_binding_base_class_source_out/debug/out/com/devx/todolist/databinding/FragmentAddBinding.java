@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.devx.todolist.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -64,19 +65,19 @@ public final class FragmentAddBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.description_et;
-      EditText descriptionEt = rootView.findViewById(id);
+      EditText descriptionEt = ViewBindings.findChildViewById(rootView, id);
       if (descriptionEt == null) {
         break missingId;
       }
 
       id = R.id.priorities_spinner;
-      Spinner prioritiesSpinner = rootView.findViewById(id);
+      Spinner prioritiesSpinner = ViewBindings.findChildViewById(rootView, id);
       if (prioritiesSpinner == null) {
         break missingId;
       }
 
       id = R.id.title_et;
-      EditText titleEt = rootView.findViewById(id);
+      EditText titleEt = ViewBindings.findChildViewById(rootView, id);
       if (titleEt == null) {
         break missingId;
       }
